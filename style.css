@@ -71,9 +71,9 @@ nav {
 
 .bottom-image1 {
   position: absolute;
-  top: 565px;
+  top: 553px;
   left: 0;
-  width: 512px; 
+  width: 541px; 
   height: auto; 
   cursor: pointer;
   z-index: 3;
@@ -105,8 +105,8 @@ nav {
   position: absolute;
   width: 133px; 
   height: auto; 
-  margin-top: -140px;
-  margin-left: -100px;
+  margin-top: -165px;
+  margin-left: 67px;
   cursor: pointer;
   z-index: 3;
 }
@@ -241,7 +241,7 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 40px;
+  margin-left: 60px;
   font-size: 15px;
   transition: transform 0.3s ease;
 }
@@ -278,12 +278,12 @@ body {
   background: linear-gradient(to bottom, #5e0080, #8a007e, #d10062);
   color: #fff;
   padding-right: 10px;
-  padding-left: 22px;
+  padding-left: 20px;
   padding-top: 8px;
   padding-bottom: 8px;
   border: none;
   cursor: pointer;
-  margin-left: 50px;
+  margin-left: 80px;
   border-radius: 5px;
   font-size: 15px;
   border: 1px  #d587ff;
@@ -325,7 +325,7 @@ body {
 
 .nav-button7 {
   position: absolute;
-  background: linear-gradient(to bottom right, #ee00af, #ad0299, #9302a1, #8c00bf , #7802c2);
+  background: linear-gradient(to bottom right, #ee00af, #ad0299, #9302a1, #8c00bf, #7802c2);
   color: #fff;
   margin-top: 453px;
   padding-right: 41px;
@@ -335,7 +335,7 @@ body {
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  margin-left: 29.8px;
+  margin-left: 34.8px;
   font-size: 18px;
   z-index: 2;
   transition: transform 0.3s ease;
@@ -353,6 +353,11 @@ body {
   }
 }
 
+.nav-button7:hover {
+  animation: glow 1s infinite;
+  transform: scale(1.04);
+}
+
 @keyframes glow2 {
   0% {
     box-shadow: 0 0 4px 4px rgba(255, 255, 255, 0.7);
@@ -363,10 +368,6 @@ body {
   100% {
     box-shadow: 0 0 4px 4px rgba(255, 255, 255, 0.7);
   }
-}
-
-.nav-button7:hover {
-  animation: glow 1s infinite;
 }
 
 .nav-button5:hover {
@@ -429,7 +430,7 @@ body {
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  margin-left: 27px;
+  margin-left: 32px;
   font-size: 15px;
   z-index: 1;
 }
@@ -445,7 +446,7 @@ body {
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  margin-left: 248px;
+  margin-left: 256px;
   font-size: 18px;
   z-index: 2;
   transition: transform 0.3s ease;
@@ -456,14 +457,14 @@ body {
   background: linear-gradient(to bottom, rgba(252, 78, 3, 1), rgba(255, 255, 255, 0));
   color: #fff;
   margin-top: 449px;
-  padding-right: 39px;
+  padding-right: 38px;
   padding-left: 39px;
   padding-top: 163px;
   padding-bottom: 26px;
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  margin-left: 245.1px;
+  margin-left: 253.1px;
   font-size: 15px;
   z-index: 1;
 }
@@ -472,14 +473,14 @@ body {
   position: absolute;
   background: linear-gradient(to bottom right, #ee00af, #ad0299, #9302a1, #8c00bf , #7802c2);  color: #fff;
   margin-top: 453px;
-  padding-right: 46.7px;
+  padding-right: 48px;
   padding-left: 46.7px;
   padding-top: 153px;
   padding-bottom: 25px;
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  margin-left: 483px;
+  margin-left: 494px;
   font-size: 18px;
   white-space: nowrap;
   z-index: 2;
@@ -498,7 +499,7 @@ body {
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  margin-left: 479.5px;
+  margin-left: 490.5px;
   font-size: 15px;
   z-index: 1;
 }
@@ -549,7 +550,7 @@ body {
   position: absolute;
   left: 42.1%;
   top: 105px;
-  width: 60%;
+  width: 63%;
   height: 538px;
   background: linear-gradient(to top right, #6b0581,#7b076d, #a22472);    
   z-index: -2;
@@ -606,7 +607,7 @@ body {
 
 .sso-rectangle2 {
   position: absolute;
-  left: -35%;
+  left: -30%;
   top: 30px;
   width: 580px;
   height: 240px;
@@ -647,7 +648,7 @@ body {
 .sso-rectangle3 {
   display: flex;
   position: absolute;
-  margin-left: 82%;
+  margin-left: 86%;
   top: 335%;
   width: 43%;
   height: 120%;
@@ -697,6 +698,6 @@ body {
   height: 80px;
   cursor: pointer;
   border-radius: 5%;
-  margin-right: -100px;
-  margin-left: 30px;
+  margin-right: -150px;
+  margin-left: 65px;
 }
